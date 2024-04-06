@@ -1,0 +1,7 @@
+#all files that excluded from tracking
+
+APIs.txt
+passwords.txt
+authentication.txt
+
+# *.txt
