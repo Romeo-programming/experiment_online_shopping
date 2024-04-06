@@ -1,0 +1,126 @@
+body{
+    
+    background-color: #f6fbff;
+    text-align: center;
+}
+
+a:hover{
+    color: #22647c;
+}
+
+.btn-link {
+    color: #0c84b3;
+}
+
+.btn-link:hover{
+    color: #22647c;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 5% 12%;
+}
+
+
+/* Sections */
+
+#title {
+}
+
+#title .container-fluid{
+    padding: 2% 4% 7%;
+    margin-bottom: 8%;
+}
+
+
+/* Navbar */
+
+.navbar {
+    margin: 0 0 7%;
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-left: 3%;
+    color: #0c84b3;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    color: #0c84b3;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(12,132,179, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.navbar-toggler {
+    border-color: #0c84b3;
+}
+
+
+/* Search Box */
+
+.search-box {
+    position: absolute;
+    width: 20%;
+    right: 100px;
+}
+
+.search-button{
+    margin: 0 5px 0;
+    padding: 0 5px;
+    background-color:#0c84b3;
+    color: #f6fbff;
+}
+
+
+
+/* Cart-Button */
+
+.profile-cart-button{
+    color: #0c84b3;
+    position: absolute;
+    left: 15%;
+}
+
+
+
+/* Product Section */
+
+.products {
+}
+
+.products-title {
+    margin-bottom: 50px;
+}
+
+.card {
+    position: relative;
+    padding: 2% 3%;
+    margin: 3% 1%;
+    border-radius: 5%;
+}
+
+
+.addToCart {
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+}
